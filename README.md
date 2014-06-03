@@ -1,6 +1,6 @@
 # Hotload Lite - Hot code reload for NodeJS
 
-### Version 0.0.6
+### Version 0.0.7
 
 ## TL;DR:
 
@@ -11,7 +11,7 @@ module.exports = {
 }
 
 // index.js
-hotload = require("hotload");
+hotload = require("hotload-lite");
 
 //lib = require("lib");
 lib = hotload("./lib.js");
@@ -39,11 +39,11 @@ The purpose is reload library without application shut down.
 
 It is probably not suitable for production use.
 
-Hotload only works on object modules. Non-object modules (E.g. `module.exports = "abc"`) will be `require`d normally but they cannot be hot reloaded. If you don't see why you should google about JavaScript's variable references and its pass-by-value nature.
+Hotload Lite only works on object modules. Non-object modules (E.g. `module.exports = "abc"`) will be `require`d normally but they cannot be hot reloaded. If you don't see why you should google about JavaScript's variable references and its pass-by-value nature.
 
 ```javascript
 // index.js
-hotload = require("hotload");
+hotload = require("hotload-lite");
 
 // First argument is the same as for `require`. Second argument (callback) is optional.
 // Callback's first argument is the module object, which is exactly the same object

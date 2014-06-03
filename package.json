@@ -1,6 +1,6 @@
 {
   "name": "hotload-lite",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "license": "MIT",
   "description": "Fork of hotload module, removing reload on file change and console output",
   "main": "lib/hotload.js",
@@ -32,6 +32,5 @@
     "name": "Jan Święcki",
     "email": "jan.swiecki@gmail.com",
     "url": "https://github.com/BrandonDusseau/node-hotload"
-  },
-  "gitHead": "14a17e38f12c0a3845eefaae7265afe5851b0d12"
+  }
 }
