@@ -1,6 +1,6 @@
-# Hotload - Hot code reload for NodeJS
+# Hotload Lite - Hot code reload for NodeJS
 
-### Version 0.0.5
+### Version 0.0.6
 
 ## TL;DR:
 

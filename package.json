@@ -1,8 +1,8 @@
 {
-  "name": "hotload",
-  "version": "0.0.5",
+  "name": "hotload-lite",
+  "version": "0.0.6",
   "license": "MIT",
-  "description": "Hot load (hot require) for NodeJS. It's like JRebel but for NodeJS.",
+  "description": "Fork of hotload module, removing reload on file change and console output",
   "main": "lib/hotload.js",
   "directories": {
     "test": "test"
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jan-swiecki/node-hotload"
+    "url": "https://github.com/BrandonDusseau/node-hotload"
   },
   "engines":
   {
@@ -25,14 +25,13 @@
   ],
   "dependencies":
   {
-    "colors": "0.6.0-1",
     "callsite": "1.0.0"
   },
   "author":
   {
     "name": "Jan Święcki",
     "email": "jan.swiecki@gmail.com",
-    "url": "https://github.com/jan-swiecki/node-hotload"
+    "url": "https://github.com/BrandonDusseau/node-hotload"
   },
   "gitHead": "14a17e38f12c0a3845eefaae7265afe5851b0d12"
 }
