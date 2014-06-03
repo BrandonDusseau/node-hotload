@@ -29,7 +29,7 @@ setInterval(function()
 
 ## Install
 
-`> npm install hotload`
+`> npm install hotload-lite`
 
 ## Usage
 
