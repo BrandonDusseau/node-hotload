@@ -1,5 +1,7 @@
 # Hotload Lite - Hot code reload for NodeJS
 
+**WARNING**: This repository has not been maintained in a long time! Please use the [upstream repo](https://github.com/jan-swiecki/node-hotload) for the latest version.
+
 ### Version 0.0.7
 
 ## TL;DR:
